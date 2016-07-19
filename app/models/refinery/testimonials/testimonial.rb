@@ -19,7 +19,6 @@ module Refinery
       def flash_name
         "Quote by #{self.name}"
       end
-
     end
   end
 end
