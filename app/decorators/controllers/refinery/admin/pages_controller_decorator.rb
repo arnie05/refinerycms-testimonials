@@ -1,7 +1,7 @@
 Refinery::Admin::PagesController.prepend(
  Module.new do
    def permitted_page_params
-     super <<  [:testimonials_show, :testimonials_count, :testimonials_select]
+     super <<  [:testimonials_show, :testimonials_count, :testimonials_select, :review_ids => []]
     end
  end
 )
