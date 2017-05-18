@@ -6,3 +6,13 @@ Refinery::Admin::PagesController.prepend(
  end
 )
 
+Refinery::Admin::PagesController.class_eval do
+  before_filter :find_testimonials
+
+  protected
+
+    def find_testimonials
+      @testimonials = Refinery::Testimonials::Testimonial.all.order('position ASC')
+    end
+end
+
