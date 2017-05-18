@@ -5,6 +5,9 @@ module Refinery
 
         crudify :'refinery/testimonials/testimonial',
                 title_attribute: :flash_name,
+                :xhr_paging => false,
+                :paging => false,
+                :order => "position ASC",
                 include: [:translations]
 
         helper :'refinery/testimonials/admin'
