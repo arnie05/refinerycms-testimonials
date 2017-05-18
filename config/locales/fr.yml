@@ -17,8 +17,10 @@ fr:
               testimonials_select: Quels témoignages devraient apparaître sur cette page ?
               testimonials_select_help: Si vous sélectionnez Aléatoire, les témoignages seront affichés aléatoirement. Si vous sélectionnez Récent, ils seront affichés par le plus récent en premier.
               select_testimonals_by: Sélectionnez les témoignages par
+              select_review_ids: Sélectionnez les témoignages individuellement
               by_date: Par date (Récent en premier)
               random: Aléatoire
+              select: Sélection
           records:
             title: Témoignages
             no_items_yet: Il n'y a aucun témoignage.

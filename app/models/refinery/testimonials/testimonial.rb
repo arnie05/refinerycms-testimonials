@@ -7,6 +7,8 @@ module Refinery
 
       translates :name, :quote, :teaser, :job_title, :website
 
+      has_and_belongs_to_many :pages, :class_name => '::Refinery::Page', join_table: "refinery_pages_testimonials"
+
       # Constants for how to show the testimonials
       ORDER = %w[Random Recent]
       CHANNELS = %w[Letter Email Facebook Twitter]

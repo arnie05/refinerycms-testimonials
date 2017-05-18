@@ -17,8 +17,10 @@ en:
             testimonials_select: Which testimonials should appear on this page?
             testimonials_select_help: If you select random testimonials will be shown in any order. If you select Recent testimonials will be shown with the most recent first
             select_testimonals_by: Select testimonials by
+            select_review_ids: Select testimonials individualy
             by_date: By date (Recent first)
             random: Random
+            select: Selection
           records:
             title: Testimonials
             no_items_yet: There are no testimonials yet.

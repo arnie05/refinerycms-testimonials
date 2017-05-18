@@ -30,7 +30,16 @@
       <br />
       <%= f.radio_button  :testimonials_select,  'Random' %>
       <%= f.label :testimonials_select, t('.random'), :value => 'Random', :class=>'stripped' %>
+      <br />
+      <%= f.radio_button  :testimonials_select,  'Select' %>
+      <%= f.label :testimonials_select, t('.select'), :value => 'Select', :class=>'stripped' %>     
     </div>
+
+    <div class='field'>
+      <%= f.label t('.select_review_ids') -%>
+      <%= f.collection_select :review_ids, Refinery::Testimonials::Testimonial.all, :id, :name, {}, {:multiple => true} %>
+    </div>   
+
   </div>
 </div>
 

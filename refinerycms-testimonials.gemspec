@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.license            = %q{MIT}
   s.authors           = %q{tsdbrown - Luke Brown- magpieuk, Lee Irving - http://www.transcendit.co.uk, anita - Anita Graham - http//:www.joli.com.au}
 
-  s.files             = `git ls-files`.split("\n")
-  s.test_files        = `git ls-files -- spec/*`.split("\n")
+  # s.files             = `git ls-files`.split("\n")
+  # s.test_files        = `git ls-files -- spec/*`.split("\n")
 
   # Runtime dependencies
   s.add_dependency    %q{refinerycms},       ['>= 3.0.0', '< 5.0']
