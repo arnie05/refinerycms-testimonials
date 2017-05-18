@@ -15,7 +15,7 @@ Refinery::Page.class_eval do
       elsif testimonials_select=='Recent'
         @testimonials.order('position').limit(n)
       elsif testimonials_select=='Select'
-        @testimonials = self.reviews.order('position')
+        @testimonials = self.reviews.order('position').limit(n)
       end
     end
   end
