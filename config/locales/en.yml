@@ -38,4 +38,10 @@ en:
       refinery/testimonials/testimonial:
         name: Name
         quote: Quote
-        teaser: Teaser
+        teaser: Teaser        
+        company: Company
+        job_title: Job      
+        received_channel: Received channel
+        received_date: Received date       
+        website: Website
+        picture: Picture

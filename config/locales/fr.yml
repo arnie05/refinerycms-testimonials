@@ -37,13 +37,12 @@ fr:
       refinery/testimonials/testimonial: Témoignages
     attributes:
       refinery/testimonials/testimonial:
-        company: Compagnie
-        job_title: Profession
-        quote: Citation
         name: Nom
-        received_channel: Canal de réception
-        received_date: Date de réception
+        quote: Citation
         teaser: Résumé
+        company: Compagnie
+        job_title: Profession        
+        received_channel: Canal de réception
+        received_date: Date de réception        
         website: Site internet
         picture: Image
-        
