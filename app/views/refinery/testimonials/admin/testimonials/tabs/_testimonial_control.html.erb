@@ -36,8 +36,9 @@
     
     <div class='field'>
       <%= f.label t('.select_review_ids') -%>
-      <%= f.collection_select :review_ids, Refinery::Testimonials::Testimonial.all, :id, :name, {}, {:multiple => true} %>
-    </div>   
+      <%= f.collection_select :review_ids, Refinery::Testimonials::Testimonial.all, :id, :name, {}, {:class=>'testimonial_select_style', :multiple => true} %>
+    </div>  
+    <br /> 
 
   </div>
 </div>

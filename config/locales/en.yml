@@ -2,9 +2,10 @@ en:
   refinery:
     plugins:
       refinery_testimonials:
+        tab_name: Testimonials
         title: Testimonials
         description: Create and manage Testimonials for your site
-    testimonials:
+    testimonials:      
       admin:
         testimonials:
           tabs:

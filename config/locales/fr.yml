@@ -1,8 +1,8 @@
-
 fr:
   refinery:
     plugins:
       refinery_testimonials:
+        tab_name: Témoignages
         title: Témoignages
         description: Créer et gérer des témoignages pour votre site
     testimonials:

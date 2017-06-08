@@ -7,7 +7,7 @@
       engine_name :refinery_testimonials
 
       def self.register_testimonials(tab)
-        tab.name = 'testimonials'
+        tab.name = ::I18n.t(:'refinery.plugins.refinery_testimonials.tab_name')
         tab.partial = '/refinery/testimonials/admin/testimonials/tabs/testimonial_control'
       end
 
