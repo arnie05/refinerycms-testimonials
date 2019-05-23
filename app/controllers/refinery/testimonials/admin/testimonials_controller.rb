@@ -8,6 +8,7 @@ module Refinery
                 :xhr_paging => false,
                 :paging => false,
                 :order => "received_date DESC",
+                sortable: false,
                 include: [:translations]
 
         helper :'refinery/testimonials/admin'
