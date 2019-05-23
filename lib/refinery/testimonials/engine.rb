@@ -20,14 +20,14 @@
         end
       end
 
-      config.after_initialize do
-        Refinery.register_engine(Refinery::Testimonials)
-        Refinery::Pages::Tab.register do |tab|
-          register_testimonials tab
-        end
-        require 'refinery/collection_presenter'
-        require 'refinery/testimonial_item_presenter'
-      end
+      # config.after_initialize do
+      #   Refinery.register_engine(Refinery::Testimonials)
+      #   Refinery::Pages::Tab.register do |tab|
+      #     register_testimonials tab
+      #   end
+      #   require 'refinery/collection_presenter'
+      #   require 'refinery/testimonial_item_presenter'
+      # end
     end
   end
 end

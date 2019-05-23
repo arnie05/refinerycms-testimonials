@@ -7,7 +7,7 @@ module Refinery
                 title_attribute: :flash_name,
                 :xhr_paging => false,
                 :paging => false,
-                :order => "position ASC",
+                :order => "received_date DESC",
                 include: [:translations]
 
         helper :'refinery/testimonials/admin'
